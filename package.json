@@ -4,11 +4,14 @@
   "description": "Projeto para adquirir conhecimento em NodeJS e banco de dados MongoDB ultilizando a arquitetura de software MVC.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index",
+    "dev": "nodemon index"
   },
   "author": "Luiz Silva (luizlsl)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
   }
 }
